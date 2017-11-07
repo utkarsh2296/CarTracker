@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "374080589425",
+    "firebase_url": "https://cartracer-1e9e0.firebaseio.com",
+    "project_id": "cartracer-1e9e0",
+    "storage_bucket": "cartracer-1e9e0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:374080589425:android:c43bc2135ee87d21",
+        "android_client_info": {
+          "package_name": "com.cartracer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "374080589425-l8tpgbke2np2mn7d66hck94fu09do4kq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cartracer",
+            "certificate_hash": "18f3b731d2c790a76555d0356ec64060fdb6fd61"
+          }
+        },
+        {
+          "client_id": "374080589425-8quonr55bbh3p5ijvqcp214p0al8ljub.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cartracer",
+            "certificate_hash": "392040dc6cd2c4ee15f784204889599a337a65d0"
+          }
+        },
+        {
+          "client_id": "374080589425-1hpgd4d7euh6088sd6mgipi6877inot3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDznqccQADfdeb00WFfji1qbMhjrDBWPkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "374080589425-1hpgd4d7euh6088sd6mgipi6877inot3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

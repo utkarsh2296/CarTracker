@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ffff"
+    android:layout_height="match_parent"
+    tools:context="com.cartracer.choose">
+
+    <ImageButton
+        android:id="@+id/usermode"
+        android:layout_width="320dp"
+        android:layout_height="260dp"
+        android:layout_above="@+id/carmode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="17dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:background="#ffff"
+        app:srcCompat="@drawable/user1"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="-3dp" />
+
+    <ImageButton
+        android:id="@+id/carmode"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usermode"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/usermode"
+        android:layout_marginBottom="18dp"
+        android:background="#ffff"
+        app:srcCompat="@drawable/car1"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/usermode"
+        android:layout_alignStart="@+id/usermode"
+        android:layout_alignTop="@+id/usermode"
+        android:text="As USER"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/carmode"
+        android:layout_alignStart="@+id/carmode"
+        android:layout_alignTop="@+id/carmode"
+        android:text="As CAR"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+</RelativeLayout>
